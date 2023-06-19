@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Portfolio</title>
+    <script src="scrollSettings.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container-nav">
+                <div class="navbar-brand">
+                    <span class="social-icons">
+                        <a href="https://github.com/Danisp8" target="_blank" rel="noopener noreferrer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/daniel-santana-p%C3%A9rez-9a8855152/" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </span>
+                </div>
+                <ul class="navbar-menu">
+                    <li><a data-scroll-target="#projects">Projects</a></li>
+                    <li><a data-scroll-target="#about-me">About me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <button id="scrollToTopBtn" onclick="scrollToTop()">&#9650;</button>
+
+    <main>
+        <section id="main">
+            <div class="container">
+                <h2 class="titulo-principal">Hello<span class="punto-rojo">.</span> <br>I am<br>Daniel</h2>
+                <p class="sub-titulo">Junior Front-End developer<br>based in Ireland</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container-proyects">
+                <h2 class="titulo-proyects"><span class="punto-rojo">My</span> projects</h2>
+                <div class="project-grid">
+                    <div class="project1">
+                        <img src="img/banner-cafe.jpg" alt="Proyecto 1">
+                        <a href="enlace-proyecto1">Coffee website</a>
+                    </div>
+                    <div class="project2">
+                        <img src="img/banner-tienda.jpg" alt="Proyecto 2">
+                        <a href="enlace-proyecto2">T-shirts store</a>
+                    </div>
+                    <div class="project3">
+                        <img src="img/banner-festival.webp" alt="Proyecto 3">
+                        <a href="enlace-proyecto3">Festival website</a>
+                    </div>
+                    <!-- Agrega más proyectos aquí -->
+                </div>
+        </section>
+
+        <section id="about-me">
+            <div class="container-about">
+                <h2 class="titulo-about">More about me<span class="punto-rojo">?</span></h2>
+                <p class="text-about">I am an student of multiplatform app development, an higher certificate.<br>
+                    I nearly finish my degree, so I am looking for my first work on the development world,<br>
+                    this is a website have been made by myself to show what I am able to do,<br>
+                    if you like it, do not hesitate to <a
+                        href="mailto:danisantper8@gmail.com?subject=Contacted%20by%20website"
+                        class="contact-phrase">contact me.</a> </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>All Rights Reserved &copy; 2023 - Daniel Santana Perez</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/xxxxxxxxxx.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
