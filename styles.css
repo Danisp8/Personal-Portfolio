@@ -68,11 +68,13 @@ header {
     color: #fff;
     font-size: 1100%;
     font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+    line-height: 1.1;
 }
 
 .sub-titulo {
     text-align: left;
-    margin-top: -150px;
+    margin-top: 5px;
     color: #aeacac;
     font-size: 200%;
     font-family: 'Playfair Display', serif;
@@ -148,6 +150,42 @@ footer {
     header h1 {
         font-size: 24px;
     }
+    .titulo-principal {
+        font-size: 55px;
+    }
+
+    .sub-titulo {
+        font-size: 24px;
+    }
+
+    .titulo-proyects {
+        font-size: 55px !important;
+    }
+
+    .titulo-about {
+        font-size: 55px !important;
+    }
+
+    .text-about {
+        font-size: 24px !important;
+    }
+    #scrollToTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        background-color: #f1f1f1;
+        border: none;
+        color: #333;
+        font-size: 16px !important;
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 50%;
+        display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    }
 }
 
 .social-icons {
@@ -177,8 +215,8 @@ footer {
 }
 
 .container-proyects img {
-    max-width: 841.4px; /* Establece el tamaño máximo de ancho */
-    max-height: 521.47px; /* Establece el tamaño máximo de alto */
+    max-width: 841.4px;
+    max-height: 521.47px;
     width: 100%;
     height: auto;
     margin-top: 0;
@@ -264,15 +302,17 @@ footer {
 
 .titulo-about {
     text-align: left;
+    margin-bottom: 0%;
     margin-left: 20px;
     color: #fff;
     font-size: 650%;
     font-family: 'Playfair Display', serif;
+
 }
 
 .text-about {
     text-align: left;
-    margin-top: -100px;
+    margin-bottom: 0%;
     margin-left: 15px;
     margin-right: auto;
     margin-bottom: 20px;
